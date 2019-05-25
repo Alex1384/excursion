@@ -4,13 +4,29 @@ body {
 
 }
 
-.header_first {
-    font-family: 'Verdana';
-    font-weight: normal;
-    font-size: 50px;
+.header_first, 
+.header_second, 
+.header_third {
+    font-family: 'Verdana', sans-serif;
     color:white;  
 }
 
+
+.header_first {
+    font-weight: normal;
+    font-size: 50px;   
+}
+
+.header_second {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    color: gray;
+}
 
 .link{
     color: aquamarine;
